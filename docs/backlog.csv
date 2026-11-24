@@ -1,0 +1,10 @@
+ID,Priority,Feature,Owner,Acceptance,Prepared state,Human review state
+F01,Must,Report import and management,Adil,Demonstrate complete CRUD in the integrated application,Implemented and regression-tested,Pending member review
+F02,Must,Reusable mapping templates,Lance,Demonstrate complete CRUD in the integrated application,Implemented and regression-tested,Pending member review
+F03,Must,Record correction and source review,Ming Kong,Demonstrate complete CRUD in the integrated application,Implemented and regression-tested,Pending member review
+F04,Must,Excel exports and saved snapshots,Aidan,Demonstrate complete CRUD in the integrated application,Implemented and regression-tested,Pending member review
+F05,Must,Peer review by two teammates,Team,Record real evidence,Templates prepared,Pending
+F06,Must,Tutor design decision,Team,Record real evidence,Templates prepared,Pending
+F07,Must,Client acceptance and timed trial,Team,Record real evidence,Templates prepared,Pending
+F08,Must,Public-safe personal evidence,Team,Record real evidence,Templates prepared,Pending
+F09,Must,Presentation rehearsal,Team,Record real evidence,Templates prepared,Pending

@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{{ title }} · ReportBridge</title><link rel="stylesheet" href="{{ url_for('static', filename='app.css') }}"><script defer src="{{ url_for('static',filename='app.js') }}"></script></head>
+<body><a class="skip" href="#main">Skip to content</a>
+<header class="topbar"><a class="brand" href="{{ url_for('reports.home') }}"><span class="brand-icon">R</span>ReportBridge<span class="brand-divider">/</span><span class="brand-small">OVOL</span></a><span class="local-badge"><span class="dot"></span>Local workspace</span></header>
+<div class="app-layout"><aside><p class="nav-label">WORKSPACE</p><nav aria-label="Main navigation"><a class="{{ 'active' if request.blueprint in ['reports','review','exports'] else '' }}" href="{{ url_for('reports.home') }}">Reports <span>01</span></a><a class="{{ 'active' if request.blueprint=='templates' else '' }}" href="{{ url_for('templates.index') }}">Mapping templates <span>02</span></a></nav><div class="aside-note"><span class="eyebrow">A CLEARER PATH TO EXCEL</span><p>Choose a file.<br>Review the details.<br>Export with confidence.</p><small>PS 9g · SCCCI ID 28<br>Local proof of concept</small></div></aside>
+<main id="main"><div class="breadcrumbs">WORKSPACE <span>/</span> {{ title }}</div>
+{% with messages=get_flashed_messages(with_categories=true) %}{% for category,message in messages %}<div class="notice {{ category }}" role="alert">{{ message }}</div>{% endfor %}{% endwith %}
+{% block content %}{% endblock %}
+<footer>ReportBridge · Pronto TXT → Excel <span>Files are processed on this workstation.</span></footer></main></div></body></html>

@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.pytest_cache/
+instance/
+.coverage
+htmlcov/
+samples/client/
+samples/ovol_stock_valuation_20260930.txt
+samples/client_reference.xlsx
+evidence/Ovol_Stock_Valuation_Converted.xlsx
+evidence/private/

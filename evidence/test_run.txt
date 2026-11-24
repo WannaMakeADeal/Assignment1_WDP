@@ -1,0 +1,20 @@
+.................................................                        [100%]
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.12.14-final-0 _______________
+
+Name                           Stmts   Miss  Cover   Missing
+------------------------------------------------------------
+ovol/__init__.py                  65      6    91%   16-21
+ovol/blueprints/common.py         19      2    89%   8, 22
+ovol/blueprints/exports.py        48      7    85%   20-22, 41-43, 54
+ovol/blueprints/reports.py        83      9    89%   55-56, 77-79, 91, 102-104
+ovol/blueprints/review.py        112     15    87%   28-29, 31, 52, 59, 88-90, 105-107, 117, 121, 124-125
+ovol/blueprints/templates.py      91     13    86%   17, 19, 24, 26, 29, 35-36, 42, 48, 67, 69, 71, 105
+ovol/db.py                        29      0   100%
+ovol/seed.py                      12      1    92%   8
+ovol/services/conversion.py       74      5    93%   13, 39-40, 48, 74
+ovol/services/parsers.py         131      7    95%   46, 54, 69, 135-136, 152-153
+ovol/services/workbooks.py        63      1    98%   50
+------------------------------------------------------------
+TOTAL                            727     66    91%
+49 passed in 1.93s

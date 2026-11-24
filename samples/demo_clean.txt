@@ -1,0 +1,3 @@
+PAPER-A4|A4 copier paper|120|456.00
+BOARD-01|Display board|25|312.50
+FILM-02|Protective film|8|96.00

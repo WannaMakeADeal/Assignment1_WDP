@@ -1,0 +1,40 @@
+{
+  "source_records": 1423,
+  "reference_records": 1423,
+  "compared_cells": 17076,
+  "missing_keys": [],
+  "mismatches": [],
+  "reference_text_normalizations": [
+    {
+      "key": [
+        "CSF22ONCRASY373",
+        "GC"
+      ],
+      "column": 4,
+      "reference_tail": "\u252c\u00e1",
+      "action": "remove known reference-only mojibake tail"
+    },
+    {
+      "key": [
+        "CSF22PUMPCASY584",
+        "GC"
+      ],
+      "column": 4,
+      "reference_tail": "\u252c\u00e1",
+      "action": "remove known reference-only mojibake tail"
+    },
+    {
+      "key": [
+        "CSF22TRAYATT524",
+        "GC"
+      ],
+      "column": 4,
+      "reference_tail": "\u252c\u00e1",
+      "action": "remove known reference-only mojibake tail"
+    }
+  ],
+  "elapsed_seconds": 1.18,
+  "timing_scope": "One local automation run including app setup, import, export and comparison. Human review time excluded.",
+  "source_sha256": "e578d7bc10187113a3b1699a17eac5c649bfb1b6b1838c418076634569cc8b50",
+  "reference_sha256": "84c994b635091a9294ea8d3d415be52e51a93bc2f8378b186df7c834c2f04caa"
+}
